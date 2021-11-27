@@ -10,11 +10,11 @@ license = "All rights reserved" # Want to make your mod open source? Check out h
 # A list of mods - how many allowed here is determined by the individual mod loader
 
 [[mods]]
-modId = "examplemod"
+modId = "theforgeport"
 # The version number of the mod - unlike in the Forge MDK,
 # we'll use the processResources task to replace this for us
 version = "${version}"
-displayName = "Example Mod"
+displayName = "The Forge Port"
 # This URL will be queried by the Forge update checker in order to find the latest version of your mod.
 # If an update is found, you'll see a little blinking "emerald" symbol on your Mods button!
 # updateJSONURL="https://changeme.dev/updates.json" #optional
@@ -23,22 +23,18 @@ displayName = "Example Mod"
 # This will be displayed as your mod's logo in the Mods panel.
 # logoFile="icon.png" #optional
 # Some more fluff displayed in the Mods panel. Feel free to issue your special thanks here!
-# credits="Thanks to Mojang for making this great game" #optional
+credits="Thank you to every Fabric developer who's had to put up with bratty, ingrateful, and entitled punks on CurseForge, Reddit, and Discord" #optional
 # Some more fluff displayed in the Mods panel. Plug your stuff here!
-# authors="Me!" #optional
+authors="The Forge Porter" #optional
 # A multi-line description for your mod. This has no minimum length, but it *is* required!
 description = '''
-This is a very cool mod that does... things.
-
-...and stuff.
-
-Have I reached 280 characters yet?
+A port of the Fabric mod to Forge!
 '''
 
 # An (optional) dependency for your mod. Though technically not required,
 # it's always helpful to add these to stop your mod from loading when something is missing
 # rather than erroring out later
-[[dependencies.examplemod]]
+[[dependencies.theforgeport]]
 modId = "forge"
 mandatory = true # do you **need** this mod to be able to launch?
 # A version range using interval notation.
@@ -48,7 +44,7 @@ ordering = "NONE" # Use this if you want your mod to be loaded specifically BEFO
 side = "BOTH" # Specify where this mod is required: can be BOTH, CLIENT or SERVER
 
 # And another dependency, use this if you want to require a certain Minecraft version.
-[[dependencies.examplemod]]
+[[dependencies.theforgeport]]
 modId = "minecraft"
 mandatory = true
 # See above for how to read this notation, this essentially means any
