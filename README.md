@@ -1,13 +1,11 @@
-# ~~Fabric~~ Forge Example Mod
+# Pot to Fogre
 
-*...using [Architectury Loom](https://github.com/architectury/architectury-loom)*
+I potted the Fabic mod to Fogre
 
-## Setup
+## Bild
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the
-IDE that you are using.
+idk do u think i know how to code stfu
 
 ## License
 
-This template, much like the original fabric-example-mod, is available under the CC0 license. Feel free to learn from it
-and incorporate it in your own projects.
+i dont have one i cant drive
